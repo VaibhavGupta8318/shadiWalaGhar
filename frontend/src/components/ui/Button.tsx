@@ -7,14 +7,11 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const VARIANT_CLASSES: Record<ButtonVariant, string> = {
-  solid:
-    "bg-gold text-maroon-dark shadow-lg shadow-black/20 hover:scale-105",
-  outline:
-    "border border-gold-light/70 text-cream hover:bg-gold-light/10",
-  dark:
-    "bg-maroon text-cream shadow-lg shadow-maroon/20 hover:scale-105",
+  solid: "bg-gold text-maroon-dark shadow-lg shadow-black/20 hover:scale-105",
+  outline: "border border-gold-light/70 text-cream hover:bg-gold-light/10",
+  dark: "bg-maroon text-cream shadow-lg shadow-maroon/20 hover:scale-105",
 };
-
+// this is my first comment in shaadiwaleghar project
 export function Button({
   variant = "solid",
   className = "",
